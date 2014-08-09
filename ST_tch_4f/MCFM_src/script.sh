@@ -1,1 +1,0 @@
-for i in *.f ; do cat $i | sed s/include\ \'/include\ \'..\\/MCFM_include\\//g &> tmp.txt ; mv tmp.txt $i ; done
